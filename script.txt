@@ -1,1 +1,10 @@
 This script tests pan validations
+commands:
+git config --global user.name "gauravkpal1"
+git config --global user.email gauravkpal1@gmail.com
+git clone https://github.com/gauravkpal1/TestGit.git
+--
+git add script.txt                               ==> Add to staging
+git status
+git commit -m "changed taxing codes" script.txt  ==> Add to local GIT repository
+git push -u origin master                        ==> pusg to github
